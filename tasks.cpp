@@ -48,6 +48,7 @@ int main () {
 
       if (tasknumber <= 0 || tasknumber > tasks.size()) {
         std::cout << "Error: Invalid tasks number. Please enter a number between 1 and " << tasks.size() << "." << "\n";
+        continue;
       }
       else {
         int index = tasknumber - 1;
